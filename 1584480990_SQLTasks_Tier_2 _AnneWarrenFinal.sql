@@ -276,14 +276,15 @@ cursor.fetchall()
 
 /* Q13: Find the facilities usage by month, but not guests */
 
-## As all the data was recorded in 2012, I did not have to discriminate years to clarify the month column
+
 
 cursor.execute("""
 SELECT
 	mem_only.name AS facility_name,
 	CONCAT(m.firstname,' ',m.surname) AS member_name,
 	mem_only.used AS usage,
-	mem_only.mth AS month
+	mem_only.mth AS month,
+	mem_only.yr AS year
 FROM members as m
 LEFT JOIN (
 	SELECT 
@@ -291,13 +292,14 @@ LEFT JOIN (
 		   			ELSE 0 END) as used,
 		f.name,
 		b.memid,
-		EXTRACT(MONTH FROM b.starttime) AS mth
+		EXTRACT(MONTH FROM b.starttime) AS mth,
+		EXTRACT(YEAR FROM b.starttime) AS yr
 	FROM facilities AS f
 	LEFT JOIN bookings AS b
 	ON f.facid=b.facid
 	WHERE b.memid>0
-GROUP BY f.name,b.memid,mth) AS mem_only
+GROUP BY f.name,b.memid,mth,yr) AS mem_only
 ON m.memid=mem_only.memid
-GROUP BY member_name,facility_name,usage,month
-ORDER BY facility_name,month,member_name;""")
+GROUP BY member_name,facility_name,usage,month,year
+ORDER BY facility_name,year,month,member_name;""")
 cursor.fetchall()
