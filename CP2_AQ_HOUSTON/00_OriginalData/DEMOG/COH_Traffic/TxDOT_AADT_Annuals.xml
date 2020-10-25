@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>TxDOT AADT Annuals</title>
+                <onlink>https://services.arcgis.com/KTcxiTD9dsQw4r7Z/arcgis/rest/services/TxDOT_AADT_Annuals/FeatureServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The traffic stations at these locations collect short-term traffic count data to produce Annual Average Daily Traffic
+(AADT). This point layer contains combined traffic counts from mainlanes
+and frontage roads at one station displayed on the centerline of the roadway
+for the State of Texas. The data is created and maintained by the
+Transportation Planning and Programming (TPP) Division’s Traffic section at
+TxDOT. Traffic counts are collected on an
+annual basis as a means of measuring the use of public roads in the state.
+AADTs are calculated using a volume count, axle factor, and seasonal factor. A general overview of the equation is AADT = axles * axle factor * seasonal
+factor. The data is sourced from the Statewide Traffic Analysis and Reporting System
+(STARS II).</abstract>
+            <purpose>Point layer of traffic stations for TxDOT owned and maintained roadways. The traffic stations at these locations collect Average Annual Daily Traffic. Toll road traffic counts may be shown for context purposes and may not represent on system traffic.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>TxDOT</themekey>
+                <themekey>       TPP</themekey>
+                <themekey>       Traffic Section</themekey>
+                <themekey>       Traffic</themekey>
+                <themekey>       Traffic Data</themekey>
+                <themekey>       Traffic Counts</themekey>
+                <themekey>       AADT</themekey>
+                <themekey>       Stations</themekey>
+                <themekey>       STARS II</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Copyright 2020. Texas Department of Transportation. This data was produced for internal use and is provided for informational purposes only, and subject to change.  TxDOT makes no warranty of any kind as to the accuracy or validity of the data provided. GIS content and data provided is the property of TxDOT and may not be used for commercial purposes or resold. Distribution of this content to third parties without TxDOT's written consent is strictly prohibited.</useconst>
+        <datacred>TxDOT - Transportation Planning &amp; Programming - Traffic Section</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20190422</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
