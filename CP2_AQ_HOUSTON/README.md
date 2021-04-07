@@ -20,6 +20,9 @@ The idea is to merge the data into a coherent data set by taking into account ge
 ![](./06_Images/Overview.png)
 The main issues encountered during the wrangling of the data were matching sampling rates, connect local weather to each air quality station, deal with missing data, and integrate traffic count, land use  and population data to the data set.
 
+## AIR QUALITY INDEX
+The AQI describes the impact of pollution on the quality of life and daily activities. When applied to ozone concentrations the effects are as described in the picture below. The AQI is calculated using pollutant concentrations. Check how the AQI is calculated in the US in the [report](./SpringboardCapstone2_HoustonAirQuality_Report_Anne Warren.pdf) or [presentation[(./Springboard_Capstone2_HoustonAirQuality_AnneWarren_2021.pdf) or in [wikipedia](https://en.wikipedia.org/wiki/Air_quality_index#United_States)
+![](./06_Images/AQI.png)
 
 
 
