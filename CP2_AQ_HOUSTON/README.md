@@ -30,6 +30,7 @@ The **AQI** describes the **impact of pollution on the quality of life and daily
 ### Pollutants
 The EDA shows that between 2008 and 2020 **Ozone** is the  problematic pollutant in Houston. The other pollutants remain in the “safe” zone and rarely go up to moderate if ever. Despite BADs, the weekly and monthly average ozone concentrations remain mostly in the “safe” zone.
 There is an **average of 129 BADs per year** which may be as low as “Moderate” (80-110 days per year) up to “Very Unhealthy” (1 to 2 days per year). Ozone levels are lower in Winter and Spring.
+
 ![](./06_Images/DailyOzone.png)
 ### It looks bad but it is not BADs
 Interestingly the EDA showed that severe weather, such as hurricanes and flooding, or special events, such as massive fires as bad as they look do not lead to BADs. A fun example is the **Saharan Dust Storms** which always make the news especially in August 6th-8th 2013 and in June 2020 when the dust haze is highly visible (see picture below). The particulate matter PM 10 barely reached “Moderate” while PM 2.5 remains in the safe zone.
@@ -44,7 +45,9 @@ The model could be built focusing on ozone concentration values or AQI labels. I
 The features of importance show that **maximum temperature**, **wind speed** and **daily precipitation** are the main drivers behind ozone concentrations in the air. Being  near an industrial zone seems to play a role thought minor. Population and traffic have little influence. The model shows that the hypothesis “More people, more traffic, more pollution” cannot be supported with the data. 
 ![](./06_Images/FeaturesOfImportance.png)
 This outcome is not surprising because temperature is a catalyst in the formation of ozone. Regarding the wind, it may play a role of transportation, concentration or dispersion of ozone or of the chemicals leading its formation. The model can be used to see how this works in practice.
+
 ![](./06_Images/ozoneformation.jpg)
+
 ## MODEL APPLICATION
 The model is used to see what would happen to ozone concentrations levels (low, average and BADs) when the major drivers increase or decrease. For this the degrees are added or removed from the maximum temperature while the wind speed and total precipitation are multiplied by a factor. **Temperature is a catalyzer** on all levels of ozone though. **High winds play a dual role** of dispersion on high level of ozone but tends to catalyze ozone formation in zones where ozone is low. **Rain** seems to have no influence by itself.
 **Wind speed buffers temperature**. High wind speeds tend to buffer the action of higher temperature which can be explained by the role of dispersion of the wind (i.e. dispersion of the ozone and also the dispersion of the chemicals involved in its formation). For instance, at the highest temperature (+15F) increasing the wind speed by 50% helps shifting the air quality from “Very Unhealthy” to “Unhealthy”.
