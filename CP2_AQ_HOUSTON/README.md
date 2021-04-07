@@ -32,7 +32,7 @@ The EDA shows that between 2008 and 2020 **Ozone** is the  problematic pollutant
 There is an **average of 129 BADs per year** which may be as low as “Moderate” (80-110 days per year) up to “Very Unhealthy” (1 to 2 days per year). Ozone levels are lower in Winter and Spring.
 
 ![](./06_Images/DailyOzone.png)
-### It looks bad but it is not BADs
+### It looks bad but it is not BAD
 Interestingly the EDA showed that severe weather, such as hurricanes and flooding, or special events, such as massive fires as bad as they look do not lead to BADs. A fun example is the **Saharan Dust Storms** which always make the news especially in August 6th-8th 2013 and in June 2020 when the dust haze is highly visible (see picture below). The particulate matter PM 10 barely reached “Moderate” while PM 2.5 remains in the safe zone.
 ![](./06_Images/SaharanDust.png)
 
