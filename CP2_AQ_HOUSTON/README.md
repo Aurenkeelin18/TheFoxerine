@@ -8,11 +8,12 @@ Houston’s traffic ranked 8th in the nation in 2020. To this daily pollution ar
 ## THE DATA
 The data was collected from different sources:
 * [Pollutant Concentrations: TCEQ’s Tamis DB (Texas Commission on Environmental Quality),](https://www.tceq.texas.gov/)
-* Weather Data: NOAA (National Oceanic and Atmospheric Administration),
-* Pollutant and Weather Data: US EPA (Environmental Protection Agency),
-* Land Use: HGAC (Houston Galveston Area Council),
-* Traffic and Population Data: City of Houston data website,
-* Indoor/Outdoor Data: RIOPA study (Relationship of Indoor, Outdoor, and Personal Air). 
+* [Weather Data: NOAA (National Oceanic and Atmospheric Administration),](https://www.noaa.gov/)
+* [Pollutant and Weather Data: US EPA (Environmental Protection Agency),](https://www.epa.gov/)
+* [Land Use: HGAC (Houston Galveston Area Council),](https://www.h-gac.com/Home)
+* [Traffic and Population Data: City of Houston data website,](https://cohgis-mycity.opendata.arcgis.com/)
+* [Indoor/Outdoor Data: RIOPA study (Relationship of Indoor, Outdoor, and Personal Air).](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7UBE7P)
+
 
 
 
