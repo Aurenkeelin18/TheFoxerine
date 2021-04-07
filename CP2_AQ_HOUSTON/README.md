@@ -13,7 +13,7 @@ The data was collected from different sources:
 * [Land Use: HGAC (Houston Galveston Area Council),](https://www.h-gac.com/Home)
 * [Traffic and Population Data: City of Houston data website,](https://cohgis-mycity.opendata.arcgis.com/)
 * [Indoor/Outdoor Data: RIOPA study (Relationship of Indoor, Outdoor, and Personal Air).](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7UBE7P)
-
+![](./06_Images/HoustonMap.jpg)
 
 
 
