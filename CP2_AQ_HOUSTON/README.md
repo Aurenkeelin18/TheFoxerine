@@ -18,7 +18,7 @@ The data was collected from different sources:
 ## DATA WRANGLING
 The idea is to merge the data into a coherent data set by taking into account geographical locations, and by covering as much territory possible from The Woodlands to the North all the way down to Galveston to the Southeast on the coastline, including Baytown and Angleton (plants).
 ![](./06_Images/Overview.png)
-The main issues encountered during the wrangling of the data were matching sampling rates, connect local weather to each air quality station, deal with missing data, and adpat traffic count, land use  and population data to the data set
+The main issues encountered during the wrangling of the data were matching sampling rates, connect local weather to each air quality station, deal with missing data, and integrate traffic count, land use  and population data to the data set.
 
 
 
