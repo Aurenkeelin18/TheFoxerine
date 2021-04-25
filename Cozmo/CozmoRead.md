@@ -35,6 +35,6 @@ The model was  trained on 4,646 images and validated with 2,795 images. The mode
 # Conclusion
 Simple Convolutional Neural Networks are relatively easy to build and make very powerful models for image classification and object detection.
 <br>
-The sequential model used in this project has good accuracy (>80%) but the accuracy curve shows that there is a need to shuffle the images between training and validation and retune the learning rate. Adding more images would be also beneficial.0
+The sequential model used in this project has good accuracy (>80%) but the accuracy curve shows that there is a need to shuffle the images between training and validation. Adding more images would be also beneficial.0
 <br>
 As of now Cozmo just says the prediction of the model or “I don’t know this one” if the class is not known from the model yet. A confidence level using the model uncertainty and data uncertainty could be added to the program to prevent Cozmo from saying a wrong prediction.
