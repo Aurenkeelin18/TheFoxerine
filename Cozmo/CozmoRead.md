@@ -25,11 +25,15 @@
 # Model and Metrics
 The model was  trained on 4,646 images and validated with 2,795 images. The model is optimized by root mean square propagation (rmsprop)with a categorical cross-entropy loss function, amd a batch size of 30. The model without call backs reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would be beneficial as well.
 
-![.](04_Documentation/Images/metrics.png)
+![](04_Documentation/Images/metrics.png)
 
 # Model Application
 ![](04_Documentation/Images/modelapplication.png)
-![See how well Cozmo identifes letters](https://user-images.githubusercontent.com/68656802/116005682-b5afad00-a5cd-11eb-836b-49caee2c7c8a.png)
+![See how well Cozmo identifies letters](https://user-images.githubusercontent.com/68656802/116005682-b5afad00-a5cd-11eb-836b-49caee2c7c8a.png)
 
 # Conclusion
-
+Simple Convolutional Neural Networks are relatively easy to build and make very powerful models for image classification and object detection.
+<br>
+The sequential model used in this project has good accuracy (>80%) but the accuracy curve shows that there is a need to shuffle the images between training and validation and retune the learning rate. Adding more images would be also beneficial.0
+<br>
+As of now Cozmo just says the prediction of the model or “I don’t know this one” if the class is not known from the model yet. A confidence level using the model uncertainty and data uncertainty could be added to the program to prevent Cozmo from saying a wrong prediction.
