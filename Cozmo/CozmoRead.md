@@ -1,4 +1,4 @@
-![.](04_Documentation/Images/cozmo.jpeg)
+![.](04_Documentation/Images/cozmo.jpg)
 
 
 ![caption](./04_Documentation/Video/)
