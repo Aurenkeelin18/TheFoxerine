@@ -5,9 +5,10 @@
 # Plan
 <br>
 
-![](04_Documentation/Images/modeldetailed.png)
+![](04_Documentation/Images/plan.png)
 <br>
 
 # Sampling Strategy
 
 
+![](04_Documentation/Images/modeldetailed.png)
