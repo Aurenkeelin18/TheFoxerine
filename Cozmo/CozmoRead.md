@@ -9,8 +9,9 @@
 <br>
 
 # Sampling Strategy
-![](04_Documentation/Images/sampling.png)
-
+<br>
+![](04_Documentation/Images/samplingstrategy.png)
+<br>
 ![See the sampling](https://user-images.githubusercontent.com/68656802/116004638-41730a80-a5c9-11eb-9c07-291fdd2ff7bb.mp4)
 # 
 ![](04_Documentation/Images/modelexplained.png)
