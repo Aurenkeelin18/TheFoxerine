@@ -1,4 +1,4 @@
 
 
 
-![demo](https://user-images.githubusercontent.com/68656802/116004259-839b4c80-a5c7-11eb-935f-563b1ef916f7.mp4)
+![intro from Cozmo](https://user-images.githubusercontent.com/68656802/116004638-41730a80-a5c9-11eb-9c07-291fdd2ff7bb.mp4)
