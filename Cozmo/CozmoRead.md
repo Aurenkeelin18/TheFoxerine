@@ -26,7 +26,7 @@ See the sampling (https://user-images.githubusercontent.com/68656802/116005996-f
 ![](04_Documentation/Images/imageselection.png)
 
 # Model and Metrics
-The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, and a batch size of 30. The model without call backs reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would be beneficial as well.
+The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, and a batch size of 30. The model without callbacks reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would help imporving the model performance.
 
 ![](04_Documentation/Images/Metrics.png)
 
@@ -37,6 +37,6 @@ See Cozmo identifies the letters https://user-images.githubusercontent.com/68656
 # Conclusion
 Simple Convolutional Neural Networks are relatively easy to build and make very powerful models for image classification and object detection.
 <br>
-The sequential model used in this project has good accuracy (>80%) but the accuracy curve shows that there is a need to shuffle the images between training and validation. Adding more images would be also beneficial.0
+The sequential model used in this project has good accuracy (>80%) but the accuracy curve shows that there is a need to shuffle the images between training and validation. Adding more images would be also beneficial.
 <br>
 As of now Cozmo just says the prediction of the model or “I don’t know this one” if the class is not known from the model yet. A confidence level using the model uncertainty and data uncertainty could be added to the program to prevent Cozmo from saying a wrong prediction.
