@@ -26,7 +26,7 @@ See the sampling (https://user-images.githubusercontent.com/68656802/116005996-f
 ![](04_Documentation/Images/imageselection.png)
 
 # Model and Metrics
-The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, amd a batch size of 30. The model without call backs reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would be beneficial as well.
+The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, and a batch size of 30. The model without call backs reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would be beneficial as well.
 
 ![](04_Documentation/Images/Metrics.png)
 
