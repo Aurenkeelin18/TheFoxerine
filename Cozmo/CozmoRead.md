@@ -1,7 +1,7 @@
 ![](04_Documentation/Images/cozmoppt.png)
 ![Watch this intro from Cozmo](https://user-images.githubusercontent.com/68656802/116004638-41730a80-a5c9-11eb-9c07-291fdd2ff7bb.mp4)
 <br>
-Interested in learning more about Cozmo? See the developer website [] https://developer.anki.com/
+Interested in learning more about Cozmo? See the developer website https://developer.anki.com/
 
 # Plan
 
@@ -13,7 +13,7 @@ Interested in learning more about Cozmo? See the developer website [] https://de
 ![](04_Documentation/Images/samplingstrategy.png)
 
 <br>
-![See the sampling](https://user-images.githubusercontent.com/68656802/116005996-feb43100-a5ce-11eb-9939-eed1f6c16300.mp4)
+See the sampling (https://user-images.githubusercontent.com/68656802/116005996-feb43100-a5ce-11eb-9939-eed1f6c16300.mp4)
 
 <br>
 
@@ -28,8 +28,7 @@ The model was  trained on 4,646 images and validated with 2,795 images. The mode
 
 # Model Application
 ![](04_Documentation/Images/modelapplication.png)
-![See how well Cozmo identifies letters](https://user-images.githubusercontent.com/68656802/116005682-b5afad00-a5cd-11eb-836b-49caee2c7c8a.png)
-![See Cozmo identifies the letters]https://user-images.githubusercontent.com/68656802/116006287-34a5e500-a5d0-11eb-9ae3-0532ad4bb0c6.mp4
+See Cozmo identifies the letters https://user-images.githubusercontent.com/68656802/116006287-34a5e500-a5d0-11eb-9ae3-0532ad4bb0c6.mp4
 
 # Conclusion
 Simple Convolutional Neural Networks are relatively easy to build and make very powerful models for image classification and object detection.
