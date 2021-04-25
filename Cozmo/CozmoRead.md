@@ -12,7 +12,7 @@
 <br>
 ![](04_Documentation/Images/samplingstrategy.png)
 <br>
-![See the sampling](https://user-images.githubusercontent.com/68656802/116004638-41730a80-a5c9-11eb-9c07-291fdd2ff7bb.mp4)
+![See the sampling](https://user-images.githubusercontent.com/68656802/116005996-feb43100-a5ce-11eb-9939-eed1f6c16300.mp4)
 <br>
 #  Image Preparation and Selection
 ![](04_Documentation/Images/imageselection.png)
