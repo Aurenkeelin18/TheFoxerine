@@ -26,9 +26,10 @@ See the sampling (https://user-images.githubusercontent.com/68656802/116005996-f
 ![](04_Documentation/Images/imageselection.png)
 
 # Model and Metrics
-The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, and a batch size of 30. The model without callbacks reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. Additional images would help improving the model performance.
-
+The model is a keras sequential model, optimized by root mean square propagation (rmsprop) with a categorical cross-entropy loss function, and a batch size of 30. The model without callbacks reached an accuracy of 83% after 100 epochs while the model with the “ best callbacks” reached an accuracy of 77% after 100 epochs. The accuracy and loss curves suggest that the validation images are not representative and that both training and validation images should be shuffled. After the shuffle the model reaches accuracy of 99.8%. The validation accuracy curve is better than the training curve because the model uses a dropout layer (50%).
 ![](04_Documentation/Images/Metrics.png)
+![](04_Documentation/Images/Modelshuffle.png)
+
 
 # Model Application
 Cozmo looks at an item and collects new images. The images are normalized and sent to the model. The model classifies the images and provides an answer. Cozmo says what it is and giggles when he identifies a known letter. 
